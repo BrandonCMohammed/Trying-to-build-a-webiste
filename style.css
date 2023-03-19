@@ -1,0 +1,28 @@
+.header{
+    
+    text-align: center;
+    color:orange;
+    padding:20px;
+    background-color: aliceblue;
+    margin-bottom:100px ;
+}
+
+
+.bodyText1{
+    float:left;
+    width:33.33%;
+    text-align:center
+}
+
+.bodyText::after{
+    display:table;
+    clear:both;
+    content: "";
+    margin-bottom:100px
+}
+
+.footer{
+    text-align: center;
+    color:orange;
+    padding:20px
+}
